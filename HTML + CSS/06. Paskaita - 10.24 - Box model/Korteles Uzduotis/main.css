@@ -1,0 +1,117 @@
+ #filmas1 {
+    height: 300px;
+    width: 700px;
+    background-image: url(https://cutewallpaper.org/21/batman-movie-wallpaper/Little-known-sci-fi-fact-Heres-what-Nolan-originally-.jpg);
+    background-size: 700px 300px;
+    border: solid rgb(71, 66, 66) 6px;
+    margin: 8;
+    opacity: 0.9;
+}
+#filmas2 {
+    height: 300px;
+    width: 700px;
+    background-image: url(https://hbomax-images.warnermediacdn.com/images/GYGP7pwQv_ojDXAEAAAFc/tileburnedin?size=1280x720&partner=hbomaxcom&v=bd4e8b8745a1fcccbb19d76012ae572e&host=art-gallery.api.hbo.com&language=en-us&w=1280);
+    background-size: 700px 300px;
+    border: solid rgb(71, 66, 66) 6px;
+    margin: 8;
+    opacity: 0.9;
+}
+#filmas3 {
+    height: 300px;
+    width: 700px;
+    background-image: url(https://images.metadata.sky.com/pd-image/f01891f0-ebbc-44fd-9999-790dbb1985bb/16-9);
+    background-size: 700px 300px;
+    border: solid rgb(71, 66, 66) 6px;
+    margin: 8;
+    opacity: 0.9;
+}
+#filmas4 {
+    height: 300px;
+    width: 700px;
+    background-image: url(https://cdn11.bigcommerce.com/s-yzgoj/images/stencil/1280x1280/products/176772/4682367/api8s4ps0__97608.1625618807.jpg?c=2);
+    background-size: 700px 300px;
+    border: solid rgb(71, 66, 66) 6px;
+    margin: 8;
+    opacity: 0.9;
+}
+#filmas5 {
+    height: 300px;
+    width: 700px;
+    background-image: url(https://bloody-disgusting.com/wp-content/uploads/2015/07/backtothefuturebanner.jpg);
+    background-size: 700px 300px;
+    border: solid rgb(71, 66, 66) 6px;
+    margin: 8;
+    opacity: 0.9;}
+
+.batman{
+    position: relative;
+    max-width: 30%;
+    border: rgb(17, 16, 16) solid 2px;
+    background-color: rgb(63, 81, 97);
+    top: 8%;
+    left: 7%;
+    padding: 20px;
+    text-align: center;
+    font-size: 12px;
+    padding-bottom: 12%;
+    font-family: orbitron;
+    opacity: 0.7;
+}
+.interstellar{
+    position: relative;
+    max-width: 30%;
+    border: rgb(17, 16, 16) solid 2px;
+    background-color: rgb(63, 81, 97);
+    top: 8%;
+    left: 7%;
+    padding: 20px;
+    text-align: center;
+    font-size: 12px;
+    padding-bottom: 12%;
+    font-family: orbitron;
+    opacity: 0.9;
+}
+.inception{
+    position: relative;
+    max-width: 30%;
+    border: rgb(17, 16, 16) solid 2px;
+    background-color: rgb(63, 81, 97);
+    top: 8%;
+    left: 7%;
+    padding: 20px;
+    text-align: center;
+    font-size: 12px;
+    padding-bottom: 12%;
+    font-family: orbitron;
+    opacity: 0.8;
+}
+.lotr{
+    position: relative;
+    max-width: 30%;
+    border: rgb(17, 16, 16) solid 2px;
+    background-color: rgb(63, 81, 97);
+    top: 8%;
+    left: 7%;
+    padding: 20px;
+    text-align: center;
+    font-size: 12px;
+    padding-bottom: 12%;
+    font-family: orbitron;
+    opacity: 0.8;
+}
+.bttf{
+    position: relative;
+    max-width: 30%;
+    border: rgb(17, 16, 16) solid 2px;
+    background-color: rgb(63, 81, 97);
+    top: 8%;
+    left: 7%;
+    padding: 20px;
+    text-align: center;
+    font-size: 12px;
+    padding-bottom: 12%;
+    font-family: orbitron;
+    opacity: 0.9;
+}
+
+
