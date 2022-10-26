@@ -1,0 +1,11 @@
+.main {
+    color: seagreen;
+    border: 2px solid black;
+    padding: 20px;
+  }
+  
+  .special {
+    color: black;
+    font-weight: bold;
+  }
+  

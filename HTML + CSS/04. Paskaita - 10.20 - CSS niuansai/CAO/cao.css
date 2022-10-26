@@ -1,0 +1,45 @@
+.header{
+    text-align: center;
+    background-color: rgba(92, 92, 158, 0.767);
+    border: 2px;
+    border-radius: 10px;
+    margin: 1px;
+    padding: 70px;
+}
+body{
+    font-family: 'Orbitron', sans-serif;
+}
+.navbar-style{
+    font-family: orbitron;
+    color: antiquewhite;
+    font-size: 13px;
+    text-align: center;
+    font-weight: 700;
+    background: linear-gradient(#37383a, #2d2e30);
+    border-top: 1px solid #494a4c;
+    border-bottom: 4px solid #cf0000;
+    height: 38px;
+    width: inherit;
+    box-sizing: border-box;
+    padding: 10px 0 0;
+}
+.floatleft{
+    float: left;
+}
+#logo{
+    margin-top: -65px;
+    margin-left: 8px;
+}
+img{
+    vertical-align: middle;
+}
+p{
+    text-align: center;
+    display: block;
+}
+.article h1{
+    text-align: center;
+}
+.article p {
+    font-size: small;
+}

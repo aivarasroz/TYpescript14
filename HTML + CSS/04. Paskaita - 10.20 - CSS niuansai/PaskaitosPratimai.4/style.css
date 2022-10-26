@@ -1,0 +1,106 @@
+html{
+    scroll-behavior: auto;
+}
+body{
+    margin: 0;
+    height: 500vh;
+}
+.dropbtn {
+    position: sticky;
+    top: 0;
+    background-color: #747474;
+    color: rgb(128, 8, 8);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    top: 0;
+    position: sticky;
+    display: inline-block;
+    z-index: 99;
+
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #747373;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 99;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    z-index: 99;
+  }
+  
+  .dropdown-content a:hover {background-color: rgb(94, 9, 9);}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #797979;}
+
+section{
+    scroll-margin-top: 20px;
+}
+
+/*header{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 30px;
+    background-color: crimson;
+    z-index: 99;
+}*/
+.kvadratas{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(190, 171, 207);
+    color: rgb(194, 78, 36);
+    border: 1px dotted black;
+
+}
+.static{
+    position: static;
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
+.fixed{
+    position: fixed;
+}
+.sticky{
+    position: sticky;
+}
+.t50{
+    top: 50px;
+
+}
+.l160{
+    left: 160px;
+}
+.b10{
+    bottom: 10px;
+}
+.r90{
+    right: 90px;
+}
+.z5{
+    z-index: 5;
+}
+.z10{
+    z-index: 10;
+}

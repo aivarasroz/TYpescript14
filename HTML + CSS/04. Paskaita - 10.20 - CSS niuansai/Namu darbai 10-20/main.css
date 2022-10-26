@@ -1,0 +1,116 @@
+html{
+    min-height: 100%;
+}
+Nav{
+    font-family: orbitron;
+}
+header{
+    top: 0;
+    position: sticky;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(49, 48, 49);
+    z-index: 99;
+}
+Body{
+    align-items: center;
+    margin: 0;
+    background-color: rgb(94, 98, 102);
+}
+#color{
+    font-weight: 700;
+    text-align: center;
+    display: inline-block;
+    color: red;
+    text-decoration: none;
+}
+.tarpas1{
+    position: relative;
+}
+nav{
+    position: sticky;
+    top: 10px;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+.Tokyo{
+    background-color: rgba(150, 3, 3, 0.884);
+    text-align: center;
+    position: relative;
+    left: 30%;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 10px;
+    height: 500px;
+    width: 40%;
+}
+img{
+    height: 200px;
+    width: 70%;
+    align-items: center;
+    border-radius: 10px;
+}
+section{
+    scroll-margin-top: 40px;
+}
+.TokB{
+    font-size: 20px;
+}
+.TokA{
+    color: black;
+}
+.Safari{
+    background-color: rgba(150, 3, 3, 0.884);
+    text-align: center;
+    position: relative;
+    left: 30%;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 10px;
+    height: 500px;
+    width: 40%;
+}
+.Stonehenge{
+    background-color: rgba(150, 3, 3, 0.884);
+    text-align: center;
+    position: relative;
+    left: 30%;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 10px;
+    height: 500px;
+    width: 40%;
+}
+.Yellowstone{
+    background-color: rgba(150, 3, 3, 0.884);
+    text-align: center;
+    position: relative;
+    left: 30%;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 10px;
+    height: 500px;
+    width: 40%;
+}
+.Rome{
+    background-color: rgba(150, 3, 3, 0.884);
+    text-align: center;
+    position: relative;
+    left: 30%;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 10px;
+    height: 500px;
+    width: 40%; 
+}
+footer {
+    font-family: orbitron;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: #2a2a2b;
+    color: rgb(230, 0, 0);
+}

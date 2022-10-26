@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paskaita 4.</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <!--Peržiūra CAO
+    Semantiniai tag'ai
+    Positions...
+    Menu
+    Užduotis-->
+<header class="dropdown">
+    <button class="dropbtn">Parinktys</button>
+    <nav class="dropdown-content">
+        <a href="#semantiniaiTagai"> semantika</a>
+        <a href="#Positions"> semantika</a>
+        <a href="#positionInfo"> semantika</a>
+    </nav>
+</header>
+    <main>
+        <section id="semantics">
+            <h1>SemantiniaiTagai</h1>
+            <ul>
+                <li><i>Header</i> - puslapio virsutine dalis</li>
+                <li><q>Nav</q> - Navigacija i kitus puslapiu (Menu)</li>
+                <li>main - puslapio turinys</li>
+                <li>aside - soninis laukas (menu/nuorodos/reklamos)</li>
+                <li>section -skirti kazkokiai tai puslapio daliai aprasyti </li>
+                <li>article -skirti kazkokiai tai puslapio daliai aprasyti </li>
+                <li>footer - puslapio apatine dalis</li>
+            </ul>
+        </section>
+        <section>
+            <h1>Positions</h1>
+            <ul>
+                <li>static - default position</li>
+                <li>relative - </li>
+                <li>absolute - </li>
+                <li>fixed - </li>
+                <li>sticky - </li>
+            </ul>
+            <h1>Papildomi poziciju stiliai</h1>
+            <p>
+                Prisikiriant elementui bet kuria pozicija apart static, elementas igauna galimybe naudotis siais stiliais: top/bottom/left/right/z-index. <br>
+                Top/bottom/left/right priklausomai nuo suteiktos pozcijos rodo elemento pozicija puslapyje.<br>
+                O z-index rodo elemento sluoksni puslapyje.
+            </p>
+            <section id="positionInfo">
+              <div id="static">
+                <h3>Static</h3>
+                <p>
+                    Statinis elementas neigauna jokiu stiliu ir negali naudoti posiziciju.
+                </p>
+                <div class="kvadratas static">static 1</div>
+                <div class="kvadratas static">static 2</div>
+                <div class="kvadratas static">static 3</div>
+                <div class="kvadratas static">static 4</div>
+              </div>
+              <div id="relative">
+                <h3>Relative</h3>
+                <p>
+                    Relatyvus elementas neigauna jokiu stiliu, bet suteikia galimybe naudoti top/bottom/right/left/z-index stiliais.<br>Relatyvusis elementas tuo paciu nurodo ribas savo viduje esanciam/tiems absolute pozicijos elementas
+                </p>
+                <div class="kvadratas relative l160 b10">static 1</div>
+                <div class="kvadratas static">static 2</div>
+                <div class="kvadratas relative t50 z5">static 3</div>
+                <div class="kvadratas static">static 4</div>
+              </div>
+              <div id="absolute" class="relative">
+                <h3>Absolute</h3>
+                <p>
+                    Absoliutus elementas iseina is puslapio tekmes (praranda savo pozicija) ir suteikia galimybe naudotis top/bottom/r<br> Absoliuciajam elementui suteiktas t/b/r/l/z jis atsitraukia per nurodyta atstuma, nuo nurodytos krastines, nuo artimiausio protevinio elemento, kuris turi relatyviaja pozicija.
+                </p>
+                <div class="kvadratas static">static 1</div>
+                <div class="kvadratas static">static 2</div>
+                <div class="kvadratas absolute">static 3</div>
+                <div class="kvadratas static">static 4</div>
+              </div>
+              <div id="fixed">
+                <h3>Fixed</h3>
+                <p>
+                   Fiksuotas elementas iseina is puslapio tekmes, praranda savo pozicija, prilimpa vienoje vietoje (scrollinant lieka savo pozicijoje) suteikia galimybe naudotis siais stiliais: t/b/l/r. Fiksuotam elemetui suteikus pozicija, jis atsitraukia nuo krastines viewporto (Matymo lauko)
+                </p>
+                <div class="kvadratas static">static 1</div>
+                <div class="kvadratas static">static 2</div>
+                <div class="kvadratas fixed r90 t50">fixed 3</div>
+                <div class="kvadratas static">static 4</div>
+              </div>
+              <div id="sticky">
+                <h3>Sticky</h3>
+                <p>
+                    Specifiniu savybiu elementams nesuteikia. galima naudot t/b/l/r. Lipniajam elementui suteiktas t/b/l/r , jis prilimpa prie viewporto kai si ji pasiekia ir juda tevinio elemento ribose.
+                </p>
+                <div class="kvadratas static">static 1</div>
+                <div class="kvadratas static">static 2</div>
+                <div class="kvadratas sticky t50 z10">sticky</div>
+                <div class="kvadratas static">static 4</div>
+              </div>
+            </section>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
