@@ -1,0 +1,183 @@
+html{
+    min-height: 100%;
+}
+Nav{
+    font-family: orbitron;
+}
+body{
+    background-color: rgb(40, 41, 41);
+    align-items: center;
+}
+header{
+    font-family: orbitron;
+    top: 0;
+    position: sticky;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(102, 102, 102);
+    z-index: 99;
+    border: 3px solid red;
+    border-radius: 10px;
+}
+
+section{
+        max-width: 600px;
+        margin: 0 auto;
+        background: #6b6b6b;
+        box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2), 0px 2px 4px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        padding: 30px;
+        margin-top: 10px;
+        border: solid rgb(180, 0, 0) 2px;
+ }
+.logo img {
+    position: relative;
+    left: 15%;
+    width: 80px;
+    height: 80px;
+    display: block;
+    margin: 0;
+}
+div h1{
+    color: beige;
+    font-family: orbitron;
+    text-align: center;
+    font-size: 40px;
+
+}
+div h3{
+    font-family: orbitron;
+    text-align: center;
+    font-size: 10px;
+    margin: 0%;
+    color: aliceblue;;
+}
+main{
+    align-items: center;
+    text-align: center;
+}
+
+/* Dropdown mygtukas */
+.button{
+    background-color: rgb(102, 102, 102);
+    left: 25px;
+    top: 30px;
+    position: relative;
+    font-family: orbitron;
+    font-size: 15px;
+    border: none;
+}
+.button img{
+    background-color: rgb(102, 102, 102);
+    width: 30px;
+    height: 30px;
+    position: relative;
+}
+.button:hover{
+    opacity: 0.5;
+}
+/* Divas - pozicijonuoja dropdown contenta */
+.dropdown{
+    position: absolute; 
+    display: inline-block;
+}
+/* Dropdown Contentas - Automatiskai pasleptas */
+.dropdownList{
+    border: 2px solid black;
+    margin-left: 35px;
+    margin-top: 20px;
+    display: none;
+    position: sticky;
+    background-color: rgb(255, 255, 255);
+    min-width: 160px;
+    z-index: 99;
+}
+/*Linku parametrai ir stilius dropdowno viduje*/
+.dropdownList a{
+    color: red;
+    padding: 15px 18px;
+    text-decoration: none;
+    display: block;
+}
+.dropdownList a:hover{
+    background-color: rgb(85, 84, 84);}
+
+.dropdown:hover .dropdownList{
+    display: block;
+    position: relative;
+}
+.fa {
+    padding: 8px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 1px 1px;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  .fa-snapchat-ghost {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+  
+  .fa:hover{
+    opacity: 0.7;
+  }
+  footer {
+    font-family: orbitron;
+    position: sticky;
+    text-align: center;
+    background-color: rgb(102, 102, 102);
+    color: rgb(230, 0, 0);
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    overflow: hidden;
+    font-size: 15px;
+    z-index: 99;
+    border: solid 2px red;
+}
+section{
+    scroll-margin-top: 110px;
+    align-items: center;
+}
+.sm{
+    word-spacing: 10px;
+    position: relative;
+    display: inline;
+    float: right;
+    bottom: 50px;
+    right: 10px;
+}
+#Cybersec img{
+    height: 200px;
+}
+ #Cybersec p{
+    font-size: 30px;
+}
+#viruses img{
+    height: 200px;;
+
+}
+#viruses p{
+    font-size: 30px;
+}
