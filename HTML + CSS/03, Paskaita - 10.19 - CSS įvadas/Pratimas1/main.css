@@ -1,0 +1,83 @@
+body{
+    font-family: silkscreen;
+
+}
+
+li {
+    font-size: 20px;
+    color: orange;
+}
+span {
+    background-color: black;
+}
+.juodasfonas{
+    background-color: black;
+}
+.didelistekstas{
+    font-size: 30px;
+}
+#colorred{
+    color: red;
+}
+#bigtext{
+    font-size: 40px;
+}
+.kvadratas {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(214, 30, 70);
+    border: 3px double rgb(23, 6, 250);
+    font-size: 30px;
+    text-align: center;
+    line-height: 100px;
+}
+.linijinis{
+    display: inline;
+}
+.blokinis{
+    display: block;
+}
+.linijinisblokinis{
+    display: inline-block;
+}
+.fonoDivas{
+    height: 300px;
+    width: 50%;
+}
+.fonospalva{
+    background-color: blueviolet;
+}
+.fonoImage1{
+    background-image: url(https://images.unsplash.com/photo-1496196614460-48988a57fccf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8dHVydGxlfGVufDB8fDB8fA%3D%3D&w=1000&q=80);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.fonoImage2{
+    background-image: url(https://media.istockphoto.com/photos/giraffe-riding-an-elephant-on-field-friendship-and-cooperation-picture-id1349363968?b=1&k=20&m=1349363968&s=170667a&w=0&h=qa1ppsGZuM81Un7tvmClIlESWyUmm0kYkbgy09eLvuY=);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.fonoImage3{
+    background-image: url(https://cliparting.com/wp-content/uploads/2018/03/cool-pictures-2018-2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.fonogradientas{
+    background-image: linear-gradient(
+    to top left,
+    red,
+    blue,
+    green,
+    purple
+    );
+}
+.absoluteFonas img{
+    width: 100px;
+    height: 100px;
+    
+
+}

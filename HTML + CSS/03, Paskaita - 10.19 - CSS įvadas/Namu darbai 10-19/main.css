@@ -1,0 +1,128 @@
+h1 {
+    text-align: center;
+    color: rgb(17, 16, 17);
+}
+.fonoDivas{
+    border-style: solid;
+    border-width: 1px;
+    height: 200px;
+    width: 20%;
+}
+.germany{
+    background-position: center;
+    background: linear-gradient(
+        to bottom,
+        #080704 0% 33.33%,
+        #e60000 33.33% 66.66%,
+        #e0d202 66.66% 100%
+    );
+}
+.lietuva{
+    background: linear-gradient(
+        to bottom,
+        #f8c21f 0% 33.33%,
+        #119227 33.33% 66.66%,
+        #ca0505 66.66% 100%)
+}
+#center{
+    text-align: center;
+    margin: 0 auto;
+}
+h2{
+    text-align: center;
+}
+.olandija{
+    background: linear-gradient(
+        to bottom,
+        #9b160c 0% 33.33%,
+        #ffffff 33.33% 66.66%,
+        #3d2779 66.66% 100%)
+}
+.japonija {
+    background-image: radial-gradient(
+        circle at center,
+         red 10% 30%,
+         white 30% 100%)
+     
+}.India{
+    background: linear-gradient(
+        to bottom,
+        orange 0% 33%,
+        white 33% 66%,
+        green 66% 100%
+    );
+}
+.wheel {
+    text-align: center;
+    height: 43px;
+    width: 43px;
+    border: 1px solid darkblue;
+    border-radius: 45px;
+    position: relative;
+    margin: 0 auto
+}
+ 
+.wheel .line {
+    text-align: center;
+    height: 100%;
+    width: 1px;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    background: darkblue
+}
+ 
+.line:nth-child(1) {
+    transform: rotate(15deg)
+}
+ 
+.line:nth-child(2) {
+    transform: rotate(30deg)
+}
+ 
+.line:nth-child(3) {
+    transform: rotate(45deg)
+}
+ 
+.line:nth-child(4) {
+    transform: rotate(60deg)
+}
+ 
+.line:nth-child(5) {
+    transform: rotate(75deg)
+}
+ 
+.line:nth-child(6) {
+    transform: rotate(90deg)
+}
+ 
+.line:nth-child(7) {
+    transform: rotate(105deg)
+}
+ 
+.line:nth-child(8) {
+    transform: rotate(120deg)
+}
+ 
+.line:nth-child(9) {
+    transform: rotate(135deg)
+}
+ 
+.line:nth-child(10) {
+    transform: rotate(150deg)
+}
+ 
+.line:nth-child(11) {
+    transform: rotate(165deg)
+}
+ 
+.line:nth-child(12) {
+    transform: rotate(180deg)
+}
+.belgium{
+    background: linear-gradient(
+        to left,
+        #030303 0% 33.33%,
+        #d8ca05 33.33% 66.66%,
+        #b40303 66.66% 100%)
+}

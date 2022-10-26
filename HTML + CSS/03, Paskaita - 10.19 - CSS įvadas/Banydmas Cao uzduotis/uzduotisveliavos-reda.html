@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="lt">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Vėliavos red</title>
+
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+            * {
+                font-family: 'Poppins', sans-serif;
+            }
+            html, body {
+                margin: 0;
+                height: 100%;
+                width: 100%;
+            }
+
+            body {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                background-color: #f7f7f7;
+            }
+
+            .content-block {
+                background-color: white;
+                padding: 30px;
+                box-shadow:  0px 0px 4px 2px #00000006;
+                display: flex;
+                flex-direction: column;
+                align-items: stretch;
+                gap: 30px;
+            }
+
+            .content-block-header > h2 {
+                margin: 0;
+                text-align: center;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+                font-weight: 500;
+                font-size: 20px;
+            }
+
+            .content-block-body {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                align-items: stretch;
+                justify-content: space-evenly;
+                gap: 20px;
+            }
+
+            .flag-content-item > h3 {
+                font-size: 14px;
+                font-weight: 400;
+                margin: 0;
+                text-align: center;
+                margin-bottom: 10px;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+                color: black;
+            }
+
+            .flag {
+                width: 150px;
+                height: 100px;
+                border: 1px solid grey
+            }
+
+            .poland {
+                background: linear-gradient(
+                    to bottom,
+                    white 0% 50%,
+                    #DC143C 50% 100%
+                );
+            }
+
+            .italy {
+                background: linear-gradient(
+                    to right,
+                    #008C45 0% 33.33%,
+                    white 33.33% 66.66%,
+                    #CD212A 66.66% 100%
+                );
+            }
+
+            .lithuania {
+                background: linear-gradient(
+                    to bottom,
+                    #FFB81C 0% 33.33%,
+                    #046A38 33.33% 66.66%,
+                    #BE3A34 66.66% 100%
+                );
+            }
+
+        </style>
+    </head>
+
+    <body>
+            <div class="content-block-body">
+                <div class="flag-content-item">
+                    <h3>Lenkija</h3>
+                    <div class="flag poland"></div>
+                </div>
+
+                <div class="flag-content-item">
+                    <h3>Italija</h3>
+                    <div class="flag italy"></div>
+                </div>
+
+                <div class="flag-content-item" >
+                    <h3>Lietuva</h3>
+                    <div class="flag lithuania"></div>
+                </div>
+            </div>
+    </body>
+</html>

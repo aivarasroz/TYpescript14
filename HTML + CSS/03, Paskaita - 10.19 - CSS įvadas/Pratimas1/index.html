@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3 paskaita - CSS įvadas</title>
+    <style>
+        p{
+            color: yellow;
+            background-color: blue;
+            border: 2px dashed black;
+        }
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+    </style>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div> <!-- Kurso moduliai-->
+      <h1>Kurso moduliai</h1>
+      <ol>
+        <li>HTML - struktura ir eiliskumas</li>
+        <li>CSS - Puslapio stilius</li>
+        <li>Javascript - Puslapio funkcionalumas</li>
+        <li>Javascript DOM - JS pagalba keiciamas HTML</li>
+        <li>Node JS - Serverio puses programavimas (back-end)</li>
+        <li>Typescript - JS taisykliu rinkinys</li>
+        <li>ReactJS - Puslapiu kurimo budas</li>
+      </ol>
+    </div>
+    <div> <!--CSS rasymo budai-->
+      <h1>CSS rasymo budai</h1>
+      <ul>
+        <li><span class="juodasfonas">Inline - linijinis (CSS rasomas tag'o atidaromojoje style atributo dalyje)</span></li>
+        <li>Internal - CSS rasomas style tag'o viduje. Naudojamas CSS sintakse.</li>
+        <li>External - <span class="didelistekstas">Isorinis</span> - CSS rasomas atskirame faile, kruis prijungiamas prie html'o link tag'o. Naudojama sintakse CSS</li>
+      </ul>
+      <p style="color:red ; background-color:aquamarine">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis fuga iste enim ipsum vitae quidem deleniti nemo, neque perferendis dolorem.</p>
+
+    </div>
+    <div> <!--CSS selecotrs-->
+        <h1>CSS selektoriai</h1>
+        <ul>
+            <li id="colorred"> Element - Parenka nurodyta tag'a (p , li, span)</li>
+            <li id="bigtext">Class - parenka elementa kuris turi nurodyta klase (.klasespavadinimas)</li>
+            <li>ID - Parenka elementa kuris turi nurodyta id (#IDpavadinimas)</li>
+        </ul>
+    </div>
+    <div> <!--Spalvos-->
+        <h1>Spalvos</h1>
+        <ul>
+            <li>Spalvos pavadinimas - nurodai spalvai paskirta pavadinima</li>
+            <li>RGB - nurodai RGB koda</li>
+        </ul>
+        <p>
+            Yra 140 skirtingu spalvu pavadinimu. (red, crimson, azure)
+        </p>
+        <p>
+            Red green blue - RGB . Gali turet reiksmes nuo 0 iki 255. Norit pridet transparency - reikia pridet Alpha nustatyma. (0,255,10 ; rgba - 2,255,10,0.564)
+        </p>
+        <p>
+            Hexidecimal (16'ainis kodas) gali turet reiksmes nuo 00 iki ff. Norint prideti transparency , prie hex reikia prideti papidloma nurodyma kuris eina nuo 00 iki ff (#00ff0a | #00ff0a90)
+        </p>
+    </div>
+    <div> <!--display-->
+        <h1>Display</h1>
+        <ul>
+            <li>Inline - Linijinis</li>
+            <li>Block - blokinis</li>
+            <li>Inline-Block - linijins  blokinis</li>
+        </ul>
+        <p>
+            Linijinis elementas uzima tik tiek vieots kiek reikalauja jo viduje esantis contentas. Linijiniam elementui negalima nustatyti dydzio ( width/height).
+        </p>
+        <p>
+            Blokinis elementas uzima visa eilute. Blokiniam elementui galiman nustatyti dydi (width/height)
+        </p>
+        <p>
+             Linijinis- blokinis elementas uzima tiek kiek reikalauja jo viduje esantis content , arba yra nurodyto dydzio.
+        </p>
+        <hr>
+    </div>
+    <div> <!--Linijiniai elementai-->
+        <h2>Linijiniai</h2>
+        <div class="kvadratas linijinis">1</div>
+        <div class="kvadratas linijinis">2</div>
+        <div class="kvadratas linijinis">3</div>
+    </div> 
+    <div> <!--Blokiniai elementai-->
+        <h2>Blokiniai</h2>
+        <div class="kvadratas blokinis">1</div>
+        <div class="kvadratas blokinis">3</div>
+        <div class="kvadratas blokinis">3</div>
+    </div>
+    <div> <!--Linijiniai-Blokiniai-->
+        <h2>Linijiniai-Blokiniai</h2>
+        <div class="kvadratas linijinisblokinis">1</div>
+        <div class="kvadratas linijinisblokinis">2</div>
+        <div class="kvadratas linijinisblokinis">3</div>
+    </div>
+    <div> <!--Backgrounds-->
+        <h1>Backgrounds</h1>
+        <div class="fonoDivas fonospalva"></div>
+        <div class="fonoDivas fonoImage1"></div>
+        <div class="fonoDivas fonoImage2"></div>
+        <div class="fonoDivas fonoImage3"></div>
+        <div class="fonoDivas fonogradientas"></div>
+        <div class="fonoDivas absoluteFonas"></div>    
+        </div>
+    
+</body>
+</html>
