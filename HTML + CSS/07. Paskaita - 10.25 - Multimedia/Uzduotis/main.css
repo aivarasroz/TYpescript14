@@ -1,0 +1,50 @@
+.image{
+    position: relative;
+}
+.dydis img{
+    height: 250px;
+    width: 250px;
+}
+.img1{
+    position: absolute;
+    top: 200px;
+    left: 170px;
+}
+.img2{
+    position: absolute;
+    left: 250px;
+    top: 120px;
+}
+.img3{
+    position: absolute;
+    left: 100px;
+}
+.img4{
+    position: absolute;
+    top: 120px;
+    left: 150px;
+}
+.img5{
+    position: absolute;
+    top: 220px;
+    left: 190px;
+}
+
+.img1:hover{
+    z-index: 100;
+    opacity: 1;
+}
+.img2:hover{
+    z-index: 100;
+    opacity: 1.0;
+}
+.img3:hover{
+    z-index: 100;
+    opacity: 1.0;
+}
+.img4:hover{
+    z-index: 100;
+}
+.img5:hover{
+    z-index: 100;
+}
