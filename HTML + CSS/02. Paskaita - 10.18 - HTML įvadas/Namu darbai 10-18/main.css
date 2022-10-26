@@ -1,0 +1,21 @@
+h1 {
+    text-align: center;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+tr:nth-child(even) {
+    background-color: #e9e3e3;}
+
+tr:nth-child(odd) {
+    background-color: #d4d3d3;
+}
+
+    body {
+        background-color: rgb(140, 167, 218);
+    }
+    td {
+        text-emphasis-color: black;
+    }
