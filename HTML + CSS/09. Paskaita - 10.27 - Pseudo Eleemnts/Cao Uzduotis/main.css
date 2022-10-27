@@ -1,0 +1,115 @@
+body {
+    font-family: orbitron;
+    color: #717172;
+    background-color: #323233;
+  }
+  
+  h1 {
+    font-size: 2em;
+    font-weight: 300;
+    line-height: 1em;
+    text-align: center;
+    color: #4dc3fa;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  h2 {
+    font-size: 2em;
+    font-weight: 300;
+    text-align: center;
+    display: block;
+    line-height: 1em;
+    padding-bottom: 2em;
+    color: #ca001b;
+  }
+  
+  h2 a {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fb667a;
+    text-decoration: none;
+  }
+  
+  .logo {
+    width: 15%;
+    display: block;
+    margin: 0 auto;
+    padding: 12px;
+    background-color: white;
+    border-radius: 16px;
+  }
+  
+  .yellow {
+    color: #fff842;
+  }
+  
+  .container th h1 {
+    font-weight: bold;
+    font-size: 1em;
+    text-align: left;
+    color: #000000;
+    border: solid red 3px;
+    border-radius: 10px;
+  }
+  
+  .container td {
+    font-weight: normal;
+    font-size: 1em;
+    box-shadow: 0 2px 2px -2px #393b42;
+    color: black;
+  }
+  
+  .container {
+    text-align: left;
+    overflow: hidden;
+    width: 80%;
+    margin: 0 auto;
+    display: table;
+    padding: 0 0 0 0;
+    border: solid red 3px;
+    border-radius: 10px;
+  }
+  
+  .container td,
+  .container th {
+    padding: 8px 0 8px 12px;
+  }
+  
+  .container tr:nth-child(odd) {
+    background-color: #e7e7e7;
+  }
+  
+  .container tr:nth-child(even) {
+    background-color: #bdbdbd;
+  }
+  
+  .container th {
+    background-color: #194bc2;
+    color: black;
+  }
+  
+  .container td:first-child {
+    color: #d40b26;
+  }
+  
+  .form {
+    display: inline-block;
+    color: #fff;
+    border-radius: 4px;
+    padding: 5px;
+    width: 20px;
+    text-align: center;
+  }
+  
+  .win {
+    background-color: #14dc4b;
+  }
+  
+  .draw {
+    background-color: #ffcd00;
+  }
+  
+  .loss {
+    background-color: #dc0000;
+  }
