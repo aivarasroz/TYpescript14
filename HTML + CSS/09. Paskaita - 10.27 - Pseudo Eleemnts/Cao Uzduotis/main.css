@@ -1,7 +1,7 @@
 body {
     font-family: orbitron;
     color: #717172;
-    background-color: #323233;
+    background-color: #3e3e41;
   }
   
   h1 {
@@ -76,10 +76,12 @@ body {
     padding: 8px 0 8px 12px;
   }
   
+  /* Background-color of the odd rows */
   .container tr:nth-child(odd) {
     background-color: #e7e7e7;
   }
   
+  /* Background-color of the even rows */
   .container tr:nth-child(even) {
     background-color: #bdbdbd;
   }
