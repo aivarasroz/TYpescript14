@@ -1,0 +1,23 @@
+li::before{
+    content: ":)";
+
+}
+li::after{
+    content: "(:";
+
+}
+li::marker{
+    color: green;
+
+}
+h1::first-letter{
+    font-size: 20px;
+    color: red;
+}
+p::first-line{
+    color: blue;
+}
+::selection{
+    background-color: black;
+    color: orange;
+}
