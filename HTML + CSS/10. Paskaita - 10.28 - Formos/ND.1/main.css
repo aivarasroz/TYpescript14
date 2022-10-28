@@ -26,13 +26,9 @@
   .lentele th {
     padding: 8px 0 8px 12px;
   }
-  
-  /* Background-color of the odd rows */
   .lentele tr:first-child {
     background-color: #f07777;
   }
-  
-  /* Background-color of the even rows */
   .lentele tr:last-child {
     background-color: #fa6e6e;
   }
