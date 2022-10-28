@@ -1,0 +1,40 @@
+
+.lentele th {
+    font-weight: bold;
+    font-size: 1em;
+    text-align: left;
+    color: #000000;
+    background-color: #444444;
+    color: black;
+}
+.lentele {
+    text-align: left;
+    overflow: hidden;
+    width: 80%;
+    margin: 0 auto;
+    display: table;
+    padding: 0 0 0 0;
+    border: solid red 3px;
+    border-radius: 10px;
+}
+.lentele td {
+    font-weight: normal;
+    font-size: 1em;
+    box-shadow: 0 2px 2px -2px #393b42;
+    color: black;
+  }
+  .lentele td,
+  .lentele th {
+    padding: 8px 0 8px 12px;
+  }
+  
+  .lentele tr:last-child:hover td {
+    background-color: #f07777;
+    color: red;
+  }
+
+  .lentele td:first-child:hover {
+    background-color: aqua;
+    color: rgb(247, 99, 0);
+
+  }
