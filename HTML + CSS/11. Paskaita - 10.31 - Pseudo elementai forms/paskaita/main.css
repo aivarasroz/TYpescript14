@@ -1,0 +1,182 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    align-items: center;
+    background: #49fa7e;
+    color: rgba(0, 0, 0, 0.8);
+    display: grid;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    height: 100vh;
+    justify-items: center;
+  }
+
+.lentele {
+  display: grid;
+  grid-template-areas: "left right";
+  max-width: 900px;
+  }  
+
+  .kairePuse {
+    background: #138134;
+    overflow: hidden;
+    padding: 40px 0 0 0;
+    position: relative;
+    text-align: center;
+    width: 300px;
+    height: 430px;
+  }
+  .kairePuse h1 {
+    color: rgba(0, 0, 0, 0.8);
+    display: inline-block;
+    font-size: 24px;
+  }
+  .kairePuse h1 i {
+    background: #F7B1AB;
+    border-radius: 50%;
+    color: #080808;
+    font-size: 24px;
+    margin-right: 5px;
+    padding: 10px;
+    transform: rotate(-45deg);
+  }
+
+  .kairePuse .cat {
+    bottom: -5px;
+    position: absolute;
+    text-align: center;
+  }
+  .kairePuse .cat:before {
+    background: #807182;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.2;
+    position: absolute;
+    width: 10%;
+    z-index: 1;}
+
+    .kairePuse img {
+        filter: sepia(100%);
+        width: 50%;
+    }
+.desinePuse {
+    background: #015c1f;
+    display: grid;
+    grid-template-areas: "." ".";
+    width: 500px;
+}
+.desinePuse h1:nth-of-type(1) {
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 28px;
+    font-weight: 600;
+  }
+  .desinePuse .forma {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+  }
+  .desinePuse input {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    height: 38px;
+    line-height: 38px;
+    padding-left: 5px;
+  }
+  .desinePuse input, .desinePuse label {
+    color: rgba(0, 0, 0, 0.8);
+  }
+  .desinePuse header {
+    padding: 40px;
+  }
+  .desinePuse label, .desinePuse input, .desinePuse .photo {
+    width: 176px;
+  }
+  .desinePuse .photo {
+    align-items: center;
+    display: grid;
+    grid-template-areas: ". .";
+  }
+  .desinePuse .photo button {
+    border: none;
+    border-radius: 50%;
+    height: 38px;
+    margin-right: 10px;
+    outline: none;
+    width: 38px;
+  }
+  .desinePuse .photo button i {
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 16px;
+  }
+  right-container footer {
+    align-items: center;
+    background: #fff;
+    display: grid;
+    padding: 5px 40px;
+  }
+  .desinePuse footer button {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    height: 38px;
+    line-height: 38px;
+    width: 100px;
+    border-radius: 19px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .desinePuse footer #back {
+    background: #fff;
+    transition: 0.2s all ease-in-out;
+  }
+  .desinePuse footer #back:hover {
+    background: #171A2B;
+    color: white;
+  }
+  .desinePuse footer #next {
+    background: #044602;
+    border: 1px solid transparent;
+    color: #fff;
+  }
+  .desinePuse footer #next:hover {
+    background: #171A2B;
+  }
+  .vardas label, .veisle label, .gimtadienis label, .lytis label, .sterilizuotas label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  .radio {
+    background: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    display: inline-block;
+    padding: 5px;
+  }
+  .radio label {
+    background: transparent;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    display: inline-block;
+    height: 26px;
+    line-height: 26px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    transition: 0.2s all ease-in-out;
+    width: 80px;
+  }
+  .radio input[type="radio"] {
+    display: none;
+  }
+  .radio input[type="radio"]:checked + label {
+    background: #024d0c;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  .desinePuse footer .forma{
+    gap: 30px;
+  }
+  .lentele{
+    border: solid 2px darkgreen;
+  }
