@@ -1,0 +1,48 @@
+
+.container{
+    background-color: rgb(54, 54, 85);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80%;
+    color: aquamarine;
+}
+.lefttext{
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 80px;
+    word-spacing: 4px;
+}
+h1 {
+    position: relative;
+    font-size: 40px;
+    bottom: 40px;
+}
+p {
+    font-size: 20px;
+}
+.pictures {
+    display: flex;
+    flex-direction: row;
+}
+img{
+    width: 250px;
+    height: 400px;
+}
+.pic1,
+.pic2 {
+    padding-right: 30px;
+}
+.pic1 p:last-of-type{
+    font-size: 15px;
+}
+.pic2 p:last-of-type{
+    font-size: 15px;
+}
+.pic3 p:last-of-type{
+    font-size: 15px;
+
+}
+.lefttext p{
+    font-size: 17px;
+}
